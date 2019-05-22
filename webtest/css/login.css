@@ -1,0 +1,126 @@
+body{
+	background-color: #194963;
+	background-image: url(../images/login_tp_bbj.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.loginHint{position:absolute;
+	z-index:100;
+	left:490px;
+	top:122px;
+
+}
+.out{
+
+	position:absolute;
+	top:35px;
+	left:40px;
+	border-color:#ff0000 transparent  transparent  transparent;
+	border-style:dashed dashed solid dashed;
+	border-width:8px;
+}
+.in{
+	position:absolute;
+	border-color:#F6FAFA transparent  transparent  transparent;
+	border-style:dashed dashed solid dashed;
+	border-width:8px;
+	top:-9px;
+	left:-8px;
+}
+.border{
+	color:#ff0000;
+	height: 35px;
+	position:relative;
+	border:1px solid #ff0000;
+	padding:10px;
+	left:16px;
+	border-radius:5px;
+}
+.login-wrap{
+	width: 864px;
+	height: 606px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: url(../images/login_tp_bj.png) no-repeat center;
+	padding-right: 112px;
+	padding-top: 173px;
+}
+.login-form{
+	width: 270px;
+	float: right;
+}
+.login-form .form-btn{
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 50px;
+}
+.login-input-wrap{
+	border-bottom: 1px solid #d1e1e4;
+	padding-bottom: 13px;
+	padding-left: 25px;
+
+}
+.login-input-name{
+	background: url(../images/login_tb_user.png) no-repeat -3px top;
+}
+.login-input-pass{
+	background: url(../images/login_tb_pass.png) no-repeat -3px top;
+	margin-top: 40px;
+}
+.login-input-wrap input{
+	font-size: 14px;
+	color: #737B91;
+	line-height: 20px;
+	width: 100%;
+	padding-right: 10px;
+}
+.login-input-wrap input::-webkit-input-placeholder{
+	color: rgba(115,123,145,0.5);
+}
+.login-input-wrap input:-moz-placeholder{
+	color: rgba(115,123,145,0.5);
+}
+.login-input-wrap input::-moz-placeholder{
+	color: rgba(115,123,145,0.5);
+}
+.login-input-wrap input:-ms-input-placeholder{
+	color: rgba(115,123,145,0.5);
+}
+.login-check-wrap{
+	padding-top: 20px;
+}
+.login-check-wrap .form-checkbox label:after{
+	content: '';
+	background: url(../images/icon_login.png) no-repeat 0 -14px;
+	width: 14px;
+	height: 14px;
+}
+.login-check-wrap .form-checkbox{
+	float: left;
+}
+.login-check-wrap>i{
+	font-style: normal;
+	font-size: 12px;
+	color: #2C2C2C;
+	float: left;
+	margin-left: 6px;
+	line-height: 14px;
+}
+.login-check-wrap a{
+	font-size: 12px;
+	color: #2C2C2C;
+	float: right;
+}
+.login-check-wrap a:hover{
+	color: #00C69D;
+}

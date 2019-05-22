@@ -1,0 +1,137 @@
+{
+    "title": "帐卡物对应率",
+    "tSum": "364676",
+    "tFinished": "325571",
+    "tUnfinished": "39105",
+    "tRatio": "89.20%",
+    "data": [
+        {
+            "cityID": "LZ",
+            "name": "兰州",
+            "cstSum": "36866",
+            "cstFinished": "35031",
+            "cstUnfinished": "1835",
+            "cstRatio": "95.00%"
+        },
+        {
+            "cityID": "TS",
+            "name": "天水",
+            "cstSum": "29664",
+            "cstFinished": "27508",
+            "cstUnfinished": "2156",
+            "cstRatio": "92.70%"
+        },
+        {
+            "cityID": "BY",
+            "name": "白银",
+            "cstSum": "43213",
+            "cstFinished": "32858",
+            "cstUnfinished": "10355",
+            "cstRatio": "76.00%"
+        },
+        {
+            "cityID": "JC",
+            "name": "金昌",
+            "cstSum": "18019",
+            "cstFinished": "15504",
+            "cstUnfinished": "2515",
+            "cstRatio": "86.00%"
+        },
+        {
+            "cityID": "JQ",
+            "name": "酒泉",
+            "cstSum": "36554",
+            "cstFinished": "33826",
+            "cstUnfinished": "2728",
+            "cstRatio": "92.50%"
+        },
+        {
+            "cityID": "ZY",
+            "name": "张掖",
+            "cstSum": "22340",
+            "cstFinished": "19901",
+            "cstUnfinished": "2439",
+            "cstRatio": "89.00%"
+        },
+        {
+            "cityID": "WW",
+            "name": "武威",
+            "cstSum": "30905",
+            "cstFinished": "28950",
+            "cstUnfinished": "1955",
+            "cstRatio": "93.60%"
+        },
+        {
+            "cityID": "PL",
+            "name": "平凉",
+            "cstSum": "18403",
+            "cstFinished": "17353",
+            "cstUnfinished": "1050",
+            "cstRatio": "94.20%"
+        },
+        {
+            "cityID": "DX",
+            "name": "定西",
+            "cstSum": "27622",
+            "cstFinished": "25208",
+            "cstUnfinished": "2414",
+            "cstRatio": "91.20%"
+        },
+        {
+            "cityID": "QY",
+            "name": "庆阳",
+            "cstSum": "33850",
+            "cstFinished": "29342",
+            "cstUnfinished": "4508",
+            "cstRatio": "86.60%"
+        },
+        {
+            "cityID": "LN",
+            "name": "陇南",
+            "cstSum": "29077",
+            "cstFinished": "26528",
+            "cstUnfinished": "2549",
+            "cstRatio": "91.20%"
+        },
+        {
+            "cityID": "GN",
+            "name": "甘南",
+            "cstSum": "10473",
+            "cstFinished": "8937",
+            "cstUnfinished": "1536",
+            "cstRatio": "85.30%"
+        },
+        {
+            "cityID": "LX",
+            "name": "临夏",
+            "cstSum": "15552",
+            "cstFinished": "13725",
+            "cstUnfinished": "1827",
+            "cstRatio": "88.20%"
+        },
+		{
+		    "cityID": "JYG",
+		    "name": "嘉峪关",
+		    "cstSum": "1227",
+		    "cstFinished": "1178",
+		    "cstUnfinished": "49",
+		    "cstRatio": "96.00%"
+		},
+        {
+            "cityID": "SD",
+            "name": "省电",
+            "cstSum": "10798",
+            "cstFinished": "9610",
+            "cstUnfinished": "1188",
+            "cstRatio": "88.90%"
+        },
+        {
+            "cityID": "SBD",
+            "name": "送变电",
+            "cstSum": "113",
+            "cstFinished": "112",
+            "cstUnfinished": "1",
+            "cstRatio": "99.10%"
+        }
+    ]
+}

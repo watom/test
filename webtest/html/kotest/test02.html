@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type='text/javascript' src='../../lib/knockout/knockout-3.5.0.js'></script>
+    <script type='text/javascript' src='test02.js'></script>
+</head>
+<body>
+<p>First name: <input data-bind="value: firstName" /></p>
+<p>Last name: <input data-bind="value: lastName" /></p>
+<!--<h2>结果显示：Hello, <span data-bind="text: fullName"> </span>!</h2>-->
+<h2>结果显示：Hello, <span data-bind="text: fullName()"> </span>!</h2>
+
+</body>
+<script>
+ko.applyBindings(new ViewModel("Planet", "Earth")); // This makes Knockout get to work
+</script>
+</html>

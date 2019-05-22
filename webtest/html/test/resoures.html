@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资源详情</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi"/>
+    <link rel="stylesheet" href="../../css/xadmin.css">
+    <script type="text/javascript" src="../../js/jecp.js"></script>
+    <script type="text/javascript" src="../../js/laypage.js"></script>
+    <link rel="stylesheet" href="../../css/laypage.css">
+    <!-- 引用当前页面业务JS -->
+    <script type="text/javascript" src="resources.js"></script>
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+</head>
+<body>
+<!--<img border="0" src="../images/muchwebimg/1.png" alt="Pulpit rock" width="304" height="228">-->
+<h1>2019年各公司售电量统计</h1><br>
+<h5>摘要：<span data-bind="text:postName"></span></h5>
+<h5>应用场景：<span data-bind="text:postName"></span></h5>
+<h5>数据标签：<span data-bind="text:postName"></span></h5>
+<h5>关键字：<span data-bind="text:postName"></span></h5>
+<h5>所属目录：<span data-bind="text:postName"></span></h5>
+<h5>公开属性：<span data-bind="text:postName"></span></h5>
+<h5>更新频度：<span data-bind="text:postName"></span></h5>
+<h5>首次发布日期：<span data-bind="text:postName"></span></h5>
+<h5>更新日期：<span data-bind="text:postName"></span></h5>
+<h5>访问/下载次数：<span data-bind="text:postName"></span></h5>
+<h5>数据提供方：<span data-bind="text:postName"></span></h5>
+<button class="layui-btn layui-btn-normal" title="立即申请" data-bind="click:deleteAll">立即申请</button>
+<script>
+    //刷新页面
+    var load = function () {
+        SysPostViewModel.postRest(SysPostViewModel.pageIndex());
+    }
+    $(document).ready(function () {
+        SysPostViewModel.loadData();
+        ko.applyBindings(SysPostViewModel);
+    })
+</script>
+</body>
+</html>	

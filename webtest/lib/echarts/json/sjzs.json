@@ -1,0 +1,1823 @@
+{
+    "title": "数据追溯率",
+    "tSum":"56704",
+    "tFinished":"7439",
+    "tRatio":"13.12%",
+    "city": [
+        {
+            "cityID": "LZ",
+            "name": "兰州",
+            "cstSum":"8183",
+            "cstFinished":"784",
+            "cstRatio":"9.58%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "99",
+                    "finished": "20",
+                    "ratio": "20.20%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "368",
+                    "finished": "59",
+                    "ratio": "16.03%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "278",
+                    "finished": "48",
+                    "ratio": "17.27%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "932",
+                    "finished": "145",
+                    "ratio": "15.56%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "491",
+                    "finished": "99",
+                    "ratio": "20.16%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "393",
+                    "finished": "34",
+                    "ratio": "8.65%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "126",
+                    "finished": "19",
+                    "ratio": "15.08%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "149",
+                    "finished": "28",
+                    "ratio": "18.79%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "1",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "10",
+                    "finished": "6",
+                    "ratio": "60.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "109",
+                    "finished": "12",
+                    "ratio": "11.01%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "872",
+                    "finished": "186",
+                    "ratio": "21.33%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "779",
+                    "finished": "124",
+                    "ratio": "15.92%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "28",
+                    "finished": "4",
+                    "ratio": "14.29%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "3544",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "4",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "TS",
+            "name": "天水",
+            "cstSum":"1912",
+            "cstFinished":"242",
+            "cstRatio":"12.66%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "48",
+                    "finished": "6",
+                    "ratio": "12.50%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "219",
+                    "finished": "12",
+                    "ratio": "5.48%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "13",
+                    "finished": "14",
+                    "ratio": "107.69%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "415",
+                    "finished": "48",
+                    "ratio": "11.57%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "427",
+                    "finished": "23",
+                    "ratio": "5.39%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "103",
+                    "finished": "18",
+                    "ratio": "17.48%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "22",
+                    "finished": "6",
+                    "ratio": "27.27%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "35",
+                    "finished": "8",
+                    "ratio": "22.86%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "1",
+                    "finished": "1",
+                    "ratio": "100.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "33",
+                    "finished": "3",
+                    "ratio": "9.09%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "166",
+                    "finished": "81",
+                    "ratio": "48.80%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "426",
+                    "finished": "21",
+                    "ratio": "4.93%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "4",
+                    "finished": "1",
+                    "ratio": "25.00%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "BY",
+            "name": "白银",
+            "cstSum":"4397",
+            "cstFinished":"551",
+            "cstRatio":"12.53%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "86",
+                    "finished": "13",
+                    "ratio": "15.12%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "372",
+                    "finished": "29",
+                    "ratio": "7.80%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "27",
+                    "finished": "25",
+                    "ratio": "92.59%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "1181",
+                    "finished": "106",
+                    "ratio": "8.98%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "820",
+                    "finished": "45",
+                    "ratio": "5.49%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "383",
+                    "finished": "34",
+                    "ratio": "8.88%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "84",
+                    "finished": "23",
+                    "ratio": "27.38%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "87",
+                    "finished": "24",
+                    "ratio": "27.59%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "28",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "5",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "75",
+                    "finished": "14",
+                    "ratio": "18.67%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "644",
+                    "finished": "153",
+                    "ratio": "23.76%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "600",
+                    "finished": "84",
+                    "ratio": "14.00%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "5",
+                    "finished": "1",
+                    "ratio": "20.00%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "JC",
+            "name": "金昌",
+            "cstSum":"5159",
+            "cstFinished":"269",
+            "cstRatio":"5.21%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "30",
+                    "finished": "7",
+                    "ratio": "23.33%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "240",
+                    "finished": "21",
+                    "ratio": "8.75%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "32",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "674",
+                    "finished": "56",
+                    "ratio": "8.31%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "438",
+                    "finished": "33",
+                    "ratio": "7.53%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "197",
+                    "finished": "28",
+                    "ratio": "14.21%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "28",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "33",
+                    "finished": "8",
+                    "ratio": "24.24%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "37",
+                    "finished": "7",
+                    "ratio": "18.92%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "221",
+                    "finished": "59",
+                    "ratio": "26.70%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "328",
+                    "finished": "49",
+                    "ratio": "14.94%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "10",
+                    "finished": "1",
+                    "ratio": "10.00%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "2809",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "82",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "JYG",
+            "name": "嘉峪关",
+            "cstSum":"603",
+            "cstFinished":"0",
+            "cstRatio":"0.00%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "520",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "83",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "JQ",
+            "name": "酒泉",
+            "cstSum":"9973",
+            "cstFinished":"1525",
+            "cstRatio":"15.29%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "97",
+                    "finished": "35",
+                    "ratio": "36.08%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "686",
+                    "finished": "151",
+                    "ratio": "22.01%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "29",
+                    "finished": "20",
+                    "ratio": "68.97%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "1418",
+                    "finished": "269",
+                    "ratio": "18.97%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "1166",
+                    "finished": "230",
+                    "ratio": "19.73%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "610",
+                    "finished": "116",
+                    "ratio": "19.02%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "43",
+                    "finished": "42",
+                    "ratio": "97.67%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "109",
+                    "finished": "42",
+                    "ratio": "38.53%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "4",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "6",
+                    "finished": "2",
+                    "ratio": "33.33%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "89",
+                    "finished": "27",
+                    "ratio": "30.34%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "673",
+                    "finished": "372",
+                    "ratio": "55.27%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "751",
+                    "finished": "214",
+                    "ratio": "28.50%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "9",
+                    "finished": "5",
+                    "ratio": "55.56%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "4231",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "52",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "ZY",
+            "name": "张掖",
+            "cstSum":"7783",
+            "cstFinished":"80",
+            "cstRatio":"1.03%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "66",
+                    "finished": "2",
+                    "ratio": "3.03%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "463",
+                    "finished": "5",
+                    "ratio": "1.08%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "9",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "875",
+                    "finished": "16",
+                    "ratio": "1.83%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "644",
+                    "finished": "15",
+                    "ratio": "2.33%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "329",
+                    "finished": "8",
+                    "ratio": "2.43%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "44",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "68",
+                    "finished": "2",
+                    "ratio": "2.94%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "6",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "6",
+                    "finished": "2",
+                    "ratio": "33.33%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "46",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "329",
+                    "finished": "22",
+                    "ratio": "6.69%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "614",
+                    "finished": "8",
+                    "ratio": "1.30%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "6",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "4244",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "34",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "WW",
+            "name": "武威",
+            "cstSum":"3493",
+            "cstFinished":"2093",
+            "cstRatio":"59.92%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "62",
+                    "finished": "75",
+                    "ratio": "120.97%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "407",
+                    "finished": "311",
+                    "ratio": "76.41%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "63",
+                    "finished": "14",
+                    "ratio": "22.22%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "755",
+                    "finished": "450",
+                    "ratio": "59.60%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "723",
+                    "finished": "352",
+                    "ratio": "48.69%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "321",
+                    "finished": "158",
+                    "ratio": "49.22%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "82",
+                    "finished": "27",
+                    "ratio": "32.93%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "73",
+                    "finished": "44",
+                    "ratio": "60.27%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "63",
+                    "finished": "65",
+                    "ratio": "103.17%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "470",
+                    "finished": "258",
+                    "ratio": "54.89%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "471",
+                    "finished": "338",
+                    "ratio": "71.76%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "3",
+                    "finished": "1",
+                    "ratio": "33.33%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "PL",
+            "name": "平凉",
+            "cstSum":"1892",
+            "cstFinished":"757",
+            "cstRatio":"40.01%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "43",
+                    "finished": "14",
+                    "ratio": "32.56%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "295",
+                    "finished": "55",
+                    "ratio": "18.64%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "77",
+                    "finished": "31",
+                    "ratio": "40.26%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "431",
+                    "finished": "158",
+                    "ratio": "36.66%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "259",
+                    "finished": "93",
+                    "ratio": "35.91%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "201",
+                    "finished": "51",
+                    "ratio": "25.37%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "40",
+                    "finished": "23",
+                    "ratio": "57.50%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "45",
+                    "finished": "23",
+                    "ratio": "51.11%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "4",
+                    "finished": "2",
+                    "ratio": "50.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "26",
+                    "finished": "9",
+                    "ratio": "34.62%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "188",
+                    "finished": "176",
+                    "ratio": "93.62%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "277",
+                    "finished": "117",
+                    "ratio": "42.24%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "6",
+                    "finished": "5",
+                    "ratio": "83.33%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "DX",
+            "name": "定西",
+            "cstSum":"2392",
+            "cstFinished":"120",
+            "cstRatio":"5.02%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "80",
+                    "finished": "4",
+                    "ratio": "5.00%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "328",
+                    "finished": "12",
+                    "ratio": "3.66%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "38",
+                    "finished": "11",
+                    "ratio": "28.95%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "582",
+                    "finished": "14",
+                    "ratio": "2.41%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "441",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "189",
+                    "finished": "24",
+                    "ratio": "12.70%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "50",
+                    "finished": "6",
+                    "ratio": "12.00%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "45",
+                    "finished": "5",
+                    "ratio": "11.11%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "3",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "6",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "42",
+                    "finished": "3",
+                    "ratio": "7.14%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "236",
+                    "finished": "10",
+                    "ratio": "4.24%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "349",
+                    "finished": "31",
+                    "ratio": "8.88%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "3",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "QY",
+            "name": "庆阳",
+            "cstSum":"3613",
+            "cstFinished":"125",
+            "cstRatio":"3.46%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "73",
+                    "finished": "2",
+                    "ratio": "2.74%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "514",
+                    "finished": "14",
+                    "ratio": "2.72%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "37",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "1015",
+                    "finished": "33",
+                    "ratio": "3.25%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "529",
+                    "finished": "15",
+                    "ratio": "2.84%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "255",
+                    "finished": "19",
+                    "ratio": "7.45%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "79",
+                    "finished": "4",
+                    "ratio": "5.06%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "72",
+                    "finished": "4",
+                    "ratio": "5.56%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "2",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "5",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "71",
+                    "finished": "2",
+                    "ratio": "2.82%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "360",
+                    "finished": "12",
+                    "ratio": "3.33%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "590",
+                    "finished": "20",
+                    "ratio": "3.39%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "11",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "LN",
+            "name": "陇南",
+            "cstSum":"2014",
+            "cstFinished":"236",
+            "cstRatio":"11.72%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "51",
+                    "finished": "7",
+                    "ratio": "13.73%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "310",
+                    "finished": "6",
+                    "ratio": "1.94%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "59",
+                    "finished": "37",
+                    "ratio": "62.71%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "380",
+                    "finished": "20",
+                    "ratio": "5.26%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "317",
+                    "finished": "10",
+                    "ratio": "3.15%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "175",
+                    "finished": "10",
+                    "ratio": "5.71%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "15",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "34",
+                    "finished": "11",
+                    "ratio": "32.35%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "3",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "32",
+                    "finished": "7",
+                    "ratio": "21.88%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "234",
+                    "finished": "107",
+                    "ratio": "45.73%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "401",
+                    "finished": "20",
+                    "ratio": "4.99%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "3",
+                    "finished": "1",
+                    "ratio": "33.33%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "GN",
+            "name": "甘南",
+            "cstSum":"1232",
+            "cstFinished":"163",
+            "cstRatio":"13.23%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "34",
+                    "finished": "3",
+                    "ratio": "8.82%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "165",
+                    "finished": "14",
+                    "ratio": "8.48%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "16",
+                    "finished": "7",
+                    "ratio": "43.75%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "310",
+                    "finished": "37",
+                    "ratio": "11.94%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "200",
+                    "finished": "23",
+                    "ratio": "11.50%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "135",
+                    "finished": "21",
+                    "ratio": "15.56%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "7",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "11",
+                    "finished": "5",
+                    "ratio": "45.45%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "14",
+                    "finished": "3",
+                    "ratio": "21.43%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "140",
+                    "finished": "26",
+                    "ratio": "18.57%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "196",
+                    "finished": "24",
+                    "ratio": "12.24%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "4",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "LX",
+            "name": "临夏",
+            "cstSum":"2290",
+            "cstFinished":"369",
+            "cstRatio":"16.11%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "44",
+                    "finished": "5",
+                    "ratio": "11.36%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "264",
+                    "finished": "35",
+                    "ratio": "13.26%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "18",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "690",
+                    "finished": "82",
+                    "ratio": "11.88%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "513",
+                    "finished": "73",
+                    "ratio": "14.23%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "181",
+                    "finished": "41",
+                    "ratio": "22.65%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "38",
+                    "finished": "11",
+                    "ratio": "28.95%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "53",
+                    "finished": "10",
+                    "ratio": "18.87%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "4",
+                    "finished": "2",
+                    "ratio": "50.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "22",
+                    "finished": "2",
+                    "ratio": "9.09%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "219",
+                    "finished": "54",
+                    "ratio": "24.66%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "236",
+                    "finished": "53",
+                    "ratio": "22.46%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "8",
+                    "finished": "1",
+                    "ratio": "12.50%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        },
+        {
+            "cityID": "SJ",
+            "name": "省检",
+            "cstSum":"1768",
+            "cstFinished":"125",
+            "cstRatio":"7.07%",
+            "data": [
+                {
+                    "typeID": "1",
+                    "typeName": "主变压器",
+                    "sum": "19",
+                    "finished": "12",
+                    "ratio": "63.16%"
+                },
+                {
+                    "typeID": "2",
+                    "typeName": "断路器",
+                    "sum": "157",
+                    "finished": "11",
+                    "ratio": "7.01%"
+                },
+                {
+                    "typeID": "3",
+                    "typeName": "组合电器",
+                    "sum": "41",
+                    "finished": "2",
+                    "ratio": "4.88%"
+                },
+                {
+                    "typeID": "4",
+                    "typeName": "隔离开关",
+                    "sum": "257",
+                    "finished": "17",
+                    "ratio": "6.61%"
+                },
+                {
+                    "typeID": "5",
+                    "typeName": "电流互感器",
+                    "sum": "444",
+                    "finished": "22",
+                    "ratio": "4.95%"
+                },
+                {
+                    "typeID": "6",
+                    "typeName": "电压互感器",
+                    "sum": "257",
+                    "finished": "18",
+                    "ratio": "7.00%"
+                },
+                {
+                    "typeID": "7",
+                    "typeName": "电抗器",
+                    "sum": "133",
+                    "finished": "9",
+                    "ratio": "6.77%"
+                },
+                {
+                    "typeID": "8",
+                    "typeName": "电力电容器",
+                    "sum": "17",
+                    "finished": "2",
+                    "ratio": "11.76%"
+                },
+                {
+                    "typeID": "9",
+                    "typeName": "耦合电容器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "10",
+                    "typeName": "接地变",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "11",
+                    "typeName": "所用变",
+                    "sum": "14",
+                    "finished": "3",
+                    "ratio": "21.43%"
+                },
+                {
+                    "typeID": "12",
+                    "typeName": "开关柜",
+                    "sum": "14",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "13",
+                    "typeName": "避雷器",
+                    "sum": "415",
+                    "finished": "29",
+                    "ratio": "6.99%"
+                },
+                {
+                    "typeID": "14",
+                    "typeName": "消弧装置",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "15",
+                    "typeName": "配电变压器",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                },
+                {
+                    "typeID": "16",
+                    "typeName": "环网柜",
+                    "sum": "0",
+                    "finished": "0",
+                    "ratio": "0.00%"
+                }
+            ]
+        }
+    ]
+}
