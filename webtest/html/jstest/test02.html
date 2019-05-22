@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+<h1>我的第一个 JavaScript 程序</h1>
+<p id="demo">这是一个段落</p>
+<button type="button" onclick="displayDate()">显示日期</button>
+
+<script>
+    function displayDate() {
+        document.getElementById("demo").innerHTML = Date();
+    }
+</script>
+
+<hr>
+
+<p>
+    JavaScript 能够直接写入 HTML 输出流中：
+</p>
+<script>
+    document.write("<h1>这是一个标题</h1>");
+    document.write("<p>这是一个段落。</p>");
+</script>
+<p>
+    您只能在 HTML 输出流中使用 <strong>document.write</strong>。
+    如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。
+</p>
+<hr>
+<p>
+    JavaScript 能够对事件作出反应。比如对按钮的点击：
+</p>
+<button type="button" onclick="alert('欢迎!')">点我!</button>
+<hr>
+<p id="demo0">
+    JavaScript 能改变 HTML 元素的内容。
+</p>
+<script>
+    function myFunction() {
+        x = document.getElementById("demo0");  // 找到元素
+        x.innerHTML = "Hello JavaScript!";    // 改变内容
+    }
+</script>
+<button type="button" onclick="myFunction()">点击这里</button>
+<hr>
+<h3>javaScript：改变 HTML 图像</h3>
+<script>
+    function changeImage() {
+        element = document.getElementById('myimage')
+        if (element.src.match("bulbon")) {
+            element.src = "../../images/pic_bulboff.gif";
+        }
+        else {
+            element.src = "../../images/pic_bulbon.gif";
+        }
+    }
+</script>
+<img id="myimage" onclick="changeImage()" src="../../images/pic_bulboff.gif" width="100" height="180">
+<p>点击灯泡就可以打开或关闭这盏灯</p>
+<p>以上实例中代码 element.src.match("bulbon") 的作用意思是：检索 "img"标签里面的 src 属性的值，有没有包含 bulbon 这个字符串，如果存在字符串 bulbon，图片 src 更新为
+    bulboff.gif，若匹配不到 bulbon 字符串，src 则更新为 bulbon.gif</p>
+<p>JavaScript 能够改变任意 HTML 元素的大多数属性，而不仅仅是图片。</p>
+<hr>
+<p id="demo1">
+    JavaScript 能改变 HTML 元素的样式。
+</p>
+<script>
+    function myFunction() {
+        x = document.getElementById("demo1") // 找到元素
+        x.style.color = "#3CD723";          // 改变样式
+    }
+</script>
+<button type="button" onclick="myFunction()">点击这里</button>
+<hr>
+<p>请输入数字。如果输入值不是数字，浏览器会弹出提示框。</p>
+<input id="demo2" type="text">
+<script>
+    function myFunction() {
+        var x = document.getElementById("demo2").value;
+        if (x == "" || isNaN(x)) {
+            alert("不是数字");
+        }
+    }
+</script>
+<button type="button" onclick="myFunction()">点击这里</button>
+<p>以上实例只是普通的验证，如果要在生产环境中使用，需要严格判断，如果输入的空格，或者连续空格 isNaN 是判别不出来的。可以添加正则来判断。如下：</p>
+<hr>
+<p>请输入数字。如果输入值不是数字，浏览器会弹出提示框。</p>
+<input id="demo3" type="text">
+<script>
+    function myFunction() {
+        var x = document.getElementById("demo3").value;
+        if (isNaN(x) || x.replace(/(^\s*)|(\s*$)/g, "") == "") {
+            alert("不是数字");
+        }
+    }
+</script>
+<button type="button" onclick="myFunction()">点击这里</button>
+<hr>
+<script>
+    function myfunction(){
+        document.write("使用函数来执行doucment.write，即在文档加载后再执行这个操作，会实现文档覆盖");
+    }
+    document.write("<h4>这是一个标题</h4>");
+    document.write("<p>这是一个段落。</p>");
+</script>
+<p >
+    您只能在 HTML 输出流中使用 <strong>document.write</strong>。
+    如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。
+</p>
+<button type="button" onclick="myfunction()">错误示范，点击这里</button>
+<hr>
+<p >
+    <h3>JavaScript 对象</h3>
+    对象由花括号分隔。在括号内部，对象的属性以名称和值对的形式 (name : value) 来定义。属性由逗号分隔：
+    var person={firstname:"John", lastname:"Doe", id:5566};
+</p>
+
+<script>
+    var person=
+        {
+            firstname : "John",
+            lastname  : "Doe",
+            id        :  5566
+        };
+    document.write("person.lastname = "+person.lastname + "<br>");
+    document.write("person[\"lastname\"] = "+person["lastname"] + "<br>");
+    document.write("注意：对象不能这样取值：person[0] = "+person[0] + "<br>");
+</script>
+<hr>
+<p><h3>Undefined 和 Null和""的区别</h3>
+    Undefined 这个值表示变量不含有值。
+    可以通过将变量的值设置为 null 来清空变量。</p>
+</body>
+</html>
