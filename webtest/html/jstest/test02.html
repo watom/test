@@ -133,5 +133,31 @@
 <p><h3>Undefined 和 Null和""的区别</h3>
     Undefined 这个值表示变量不含有值。
     可以通过将变量的值设置为 null 来清空变量。</p>
+<hr>
+<p>创建和使用对象方法。</p>
+<p>对象方法是一个函数定义,并作为一个属性值存储。</p>
+<p>其实，JavaScript 对象是属性和方法的容器。</p>
+<p id="demo07"></p>
+<p id="demo08"></p>
+<script>
+    var person = {
+        firstName: "John",
+        lastName : "Doe",
+        id : 5566,
+        fullName : function()
+        {
+            return this.firstName + " " + this.lastName;
+        }
+    };
+    document.getElementById("demo07").innerHTML = "person.fullName不加括号输出的是函数表达式："  + person.fullName;
+    document.getElementById("demo08").innerHTML = "person.fullName()加括号输出的是函数执行结果："  +  person.fullName();
+</script>
+<hr>
+<p>在以下实例中，按钮元素中添加了 onclick 属性 :</p>
+<p id="demo09"></p>
+<button onclick="getElementById('demo09').innerHTML=Date()">现在的时间是?</button>
+<hr>
+<p>在以下实例中，代码将修改自身元素的内容 (使用 this.innerHTML):</p>
+<button onclick="this.innerHTML=Date()">现在的时间是?</button>
 </body>
 </html>
