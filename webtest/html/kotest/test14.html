@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapping</title>
+    <script type='text/javascript' src='../../lib/knockout/knockout-3.5.0.js'></script>
+    <script type='text/javascript' src='../../lib/knockout/knockout.mapping.js'></script>
+    <script type='text/javascript' src='test14.js'></script>
+</head>
+<body>
+时间： <span data-bind='text: serverTime'></span>
+次数： <span data-bind='text: numUsers'></span>
+<hr>
+时间： <span data-bind='text: serverTime01'></span>
+次数： <span data-bind='text: numUsers01'></span>
+<hr>
+标题： <span data-bind='text: name'></span>
+子标题： <span data-bind='text: children'></span>
+其他： <span data-bind='text: bar'></span>
+<hr>
+mapping更新： <span data-bind='text: name03'></span>
+</body>
+
+
+</body>
+<script  type="text/javascript">ko.applyBindings(viewModel);</script>
+</html>
