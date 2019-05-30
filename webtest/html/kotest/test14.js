@@ -61,3 +61,4 @@ var result = ko.mapping.fromJS(obj, {
 });
 
 result.mappedRemove({ id: 2 });
+//==================分割线=======================

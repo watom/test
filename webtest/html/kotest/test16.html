@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type='text/javascript' src='../../lib/knockout/knockout-3.5.0.js'></script>
+    <script type='text/javascript' src='test16.js'></script>
+</head>
+<body>
+<div data-bind="html: details"></div>
+<input type="text" name="customer_area_id" >
+</body>
+<script type="text/javascript">
+
+    var viewModel = {
+        details: ko.observable()
+    };
+    ko.applyBindings(viewModel);
+    viewModel.details("<h1>你好<a href='http://localhost:8080/dataPortals/home/view/resources/resources_statistics.html'>here</a>.</h1>");
+</script>
+</html>

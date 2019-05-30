@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/layui/css/layui.css"/>
+    <link rel="stylesheet" type="text/css" href="../../lib/bootstrap/css/bootstrap.css"/>
+    <script type="text/javascript" src="../../lib/layui/layui.js"></script>
+    <script type='text/javascript' src="../../lib/jquery/jquery.min.js"></script>
+    <script type='text/javascript' src="test01.js"></script>
+</head>
+<body>
+
+<div class="content" align="center">
+    <p class="aaa" style="display: none">你好，我是其他的的内容！</p>
+</div>
+
+<ul class="breadcrumb">
+    <li>当前位置：</li>
+    <li><a href="#">我的资源</a></li>
+    <li class="active">产品详情</li>
+</ul>
+<div class="layui-tab" lay-allowClose="true">
+    <ul class="layui-tab-title">
+        <li class="layui-this">网站设置</li>
+        <li class="meiguotitle">美国</li>
+        <li class="zhongguotitle">中国</li>
+        <li class="xinlangtitle">新浪</li>
+        <li class="baidutitle">百度</li>
+    </ul>
+    <div class="layui-tab-content">
+        <div class="layui-tab-item layui-show">1</div>
+        <div class="layui-tab-item">2</div>
+        <div class="layui-tab-item">
+            <div class="zhongguo">
+                <div class="content01">
+
+                    <h1>数据来源</h1>
+                    <!--表格开始-->
+                    <div class="table-wrap">
+                        <table border="1px" class="admin-table">
+                            <thead>
+                            <tr>
+                                <th>项目</th>
+                                <th>来源系统</th>
+                                <th>来源表</th>
+                                <th>来源字段</th>
+                                <th>other01</th>
+                                <th>other02</th>
+                            </tr>
+                            </thead>
+                            <tbody data-bind="foreach:resultList">
+                            <tr>
+                                <td><span>年份</span></td>
+                                <td><span>音效系统</span></td>
+                                <td><span>tAAAA</span></td>
+                                <td><span>time</span></td>
+                                <td><span></span></td>
+                                <td><span></span></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--表格结束-->
+                    <h1>数据加工</h1>
+                </div>
+                <button class="btn01" onclick="bbb">点击</button>
+            </div>
+        </div>
+        <div class="layui-tab-item">
+            <div class="xinlang"></div>
+        </div>
+        <div class="layui-tab-item">
+            <div class="baidu"></div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
