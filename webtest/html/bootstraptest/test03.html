@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <script type="application/javascript" src="../../lib/jquery/jquery.min.js"></script>
+    <script type='text/javascript' src='../../lib/knockout/knockout-3.5.0.js'></script>
+    <script type='text/javascript' src='test03.js'></script>
 </head>
 <body>
-<div class="ranking" >hahha</div>
-<button onclick="setRanking(4)">点击</button>
+<div class="ranking" data-bind="value:setRanking(3)"></div>
+<table class="table fz12" border="0">
+    <tbody data-bind="foreach: resultList">
+    <tr>
+        <td>
+            <p class="txtfl">昵称</p>
+            <p class="txtfl theme-gray">2019-5-2</p>
+        </td>
+        <td class="starlist">
+
+            <div class="ranking" data-bind="value:setRanking(3)"></div>
+        </td>
+        <td class="ifor"><p class="txtfl">未评价</td>
+        <td class="reply">
+            <button class="btn btn-link" type="button" data-toggle="modal" data-target="#myReply">确认
+            </button>
+        </td>
+    </tr>
+    <!--假数据结束-->
+    </tbody>
+</table>
+<button type="button" onclick="reply()">确 认</button>
 </body>
 
 <script>
-    $(document).ready(function(){
-        $("ranking").load(function(){
-            setRanking()
-        });
-    });
-    function setRanking(data) {
-        for (i = 0; i < 5; i++) {
-            console.log("jajajjaj=="+i)
-            if (i < data) {
-                $(".ranking").after("<img src='../../images/pic_bulbon.gif/>");
-            } else {
-                $(".ranking").after("<img src='../../images/pic_bulboff.gif'/>");
-            }
-        }
-    }
+
 </script>
 </html>
