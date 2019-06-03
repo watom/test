@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="application/javascript" src="../../lib/jquery/jquery.min.js"></script>
+</head>
+<body>
+<div class="ranking" >hahha</div>
+<button onclick="setRanking(4)">点击</button>
+</body>
+
+<script>
+    $(document).ready(function(){
+        $("ranking").load(function(){
+            setRanking()
+        });
+    });
+    function setRanking(data) {
+        for (i = 0; i < 5; i++) {
+            console.log("jajajjaj=="+i)
+            if (i < data) {
+                $(".ranking").after("<img src='../../images/pic_bulbon.gif/>");
+            } else {
+                $(".ranking").after("<img src='../../images/pic_bulboff.gif'/>");
+            }
+        }
+    }
+</script>
+</html>
