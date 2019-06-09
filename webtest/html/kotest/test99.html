@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type='text/javascript' src='../../lib/knockout/knockout-3.5.0.js'></script>
+    <script type='text/javascript' src='test99.js'></script>
+</head>
+<body>
+<!--无效下载:txt,png,jpg等这些浏览器支持直接打开的文件是不会执行下载任务的，而是会直接打开文件，这个时候就需要给a标签添加一个属性“download”-->
+<a href="http://localhost:8080/download/test99.txt" download="test99.txt">点击文件（只能打开txt）</a>
+<a href="http://localhost:8080/download/test01.rar" download="test01.rar">点击下载（下载rar）</a>
+<button id="btn1">点击window.open()</button>
+<button id="btn2">点击表单提交</button>
+
+</body>
+<script>
+
+    //已知一个下载文件的后端接口：https://codeload.github.com/douban/douban-client/legacy.zip/master
+    //方法一：window.open()
+
+    $(".btn2").click(function(){
+        var $eleForm = $("<form method='get'></form>");
+        $eleForm.attr("action","http://localhost:8080/download/test99.txt");
+        $(document.body).append($eleForm);
+        //提交表单，实现下载
+        $eleForm.submit();
+    });
+    $(document).ready(function(){
+        $(".btn1").click(function(){
+            window.open("http://localhost:8080/download/test01.rar");
+        });
+    });
+</script>
+</html>
