@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下载</title>
+    <style type="text/css">
+        body {
+            text-align:center
+        }
+        h1 {
+            text-align:center;
+        }
+        .box {
+            padding:50px;
+            margin:auto;
+            width:520px;
+            border:1px solid gray;
+            border-radius:2px;
+        }
+        a {
+            font-size:18px;
+            margin:50px;
+            padding:10px;
+            border:1px solid #333;
+            border-radius:6px;
+            color:white;
+            transition:all .3s;
+            text-decoration:none;
+        }
+        a:first-child {
+            background:green;
+        }
+        a:last-child {
+            background:blue;
+        }
+        a:hover {
+            font-weight:bold;
+            text-decoration:underline;
+            font-size:24px;
+            transform:scale(1.5, 1.5);
+        }
+
+    </style>
+    <script type='text/javascript' src='下载.js'></script>
+</head>
+<body>
+<a href="http://photocdn.sohu.com/20150710/mp22165085_1436507937601_1_th.jpeg">点击链接下载</a>
+<button onclick="download1()">点击按钮下载</button>
+<button onclick="download2">点击按钮下载</button>
+<a href="http://photocdn.sohu.com/20150710/mp22165085_1436507937601_1_th.jpeg"
+   download="http://photocdn.sohu.com/20150710/mp22165085_1436507937601_1_th.jpeg">下载链接</a>
+
+
+<div class="box">
+    <a download="下载文件名" href="http://www.jq22.com/img/cs/500x500-1.png">单个文件下载</a>
+
+    <!--<a id="download-btn" href="javascript:void(0)">批量文件下载</a>-->
+    <button type="button" onclick="piliang()">批量文件下载</button>
+</div>
+
+<div>
+    <button type="button" id="btn1">下载一个zip（方法1）</button>
+    <button type="button" id="btn2">下载一个zip（方法2）</button>
+</div>
+</body>
+</html>
