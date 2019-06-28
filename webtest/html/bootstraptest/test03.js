@@ -22,31 +22,31 @@ var vm = {
             }
         }
     },
+    setRanking: function (data1, data2) {
+        console.log("王海涛888：" + data1 + "--" + data2);
+        for (i = 0; i < 5; i++) {
+            if (i > data2) {
+                $("#item" + data1).before("<img src='../../images/star.png'/> ");
+                // console.log("item的class：" + $(flag(data1)).attr("id"));
+            } else {
+                $("#item" + 2).before("  <img src='../../images/staractive.png'/> ");
+                // console.log("item的class：" + $(flag(data1)).attr("id"));
+            }
+        }
+    },
     // setRanking: function (data1, data2) {
     //     console.log("王海涛888：" + data1 + "--" + data2);
     //     for (i = 0; i < 5; i++) {
     //         if (i > data2) {
-    //             $("#item" + data1).before("<img src='../../images/star.png'/> ");
-    //             // console.log("item的class：" + $(flag(data1)).attr("id"));
+    //             $(flag(data1)).before("<img src='../../images/star.png'/> ");
+    //             console.log("item的class：" + $(flag(data1)).attr("id"));
     //         } else {
-    //             $("#item" + data1).before("  <img src='../../images/staractive.png'/> ");
-    //             // console.log("item的class：" + $(flag(data1)).attr("id"));
+    //             $(flag(data1)).before("  <img src='../../images/staractive.png'/> ");
+    //             console.log("item的class：" + $(flag(data1)).attr("id"));
     //         }
     //     }
+    //     console.log("item的class：" + $(flag(data1)).attr("id"));
     // },
-    setRanking: function (data1, data2) {
-        console.log("王海涛888：" + data1 + "--" + data2);
-        // for (i = 0; i < 5; i++) {
-        //     if (i > data2) {
-        //         $(flag(data1)).before("<img src='../../images/star.png'/> ");
-        //         console.log("item的class：" + $(flag(data1)).attr("id"));
-        //     } else {
-        //         $(flag(data1)).before("  <img src='../../images/staractive.png'/> ");
-        //         console.log("item的class：" + $(flag(data1)).attr("id"));
-        //     }
-        // }
-        console.log("item的class：" + $(flag(data1)).attr("id"));
-    },
     setRanking01: function (data1, data2) {
         for (i = 0; i < 5; i++) {
             console.log("王海涛888：" + data1 + "--" + data2);
@@ -96,23 +96,22 @@ var vm = {
         $(".context").addClass('comment' + data);
     }
 
-}
+};
 
 function flag(data) {
     var a="item"+data;
     console.log("王海涛6666666666：" + a);
     return a;
-};
-
+}
 vm.addComments=function (data) {
-    console.log("回复了："+data.name)
+    console.log("回复了："+data.name);
     vm.commentList.push( {name: "张三", time: "1960-5", "comment": "哈哈哈哈"});
 };
 
 vm.removeComments=function (data) {
-    console.log("删除了："+data.name)
+    console.log("删除了："+data.name);
     vm.commentList.remove(this);
-}
+};
 
 
 function dianji(data) {
@@ -120,6 +119,35 @@ function dianji(data) {
     $("#fun123").append("<p>  " + data + "</p>");
 }
 
+function haha(data){
+    alert("跨JS调用成功了吗？/r/n"+data);
+}
+
 $(document).ready(function () {
     ko.applyBindings(vm);
 });
+
+function isEmpty(data) {
+    switch (typeof data) {
+        case "string":
+            if (data == "" || data == null || data == undefined) {
+                console.log(data + "为空");
+            } else {
+                console.log("data" + data);
+            }
+            break;
+        case "number":
+            break;
+        case "object":
+            if (data instanceof Array) {
+
+            } else if (data.constructor === Date) {
+
+            }
+            break;
+        case "function":
+            console.log(data + "为空");
+            break;
+
+    }
+}
