@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.css">
+    <script src="../../lib/jquery/jquery.min.js"></script>
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="上传图片.js"></script>
+</head>
+<style type="text/css">
+    #imgPreview {
+        width: 40%;
+        height: 180px;
+        margin: 10px auto 0px auto;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    #prompt3 {
+        width: 100%;
+        height: 180px;
+        text-align: center;
+        position: relative;
+    }
+
+    .filepath {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+
+    #img3 {
+        height: 100%;
+        width: 100%;
+        display: none;
+    }
+</style>
+<body>
+
+<div id="imgPreview">
+    <input type="image" src="../../images/icon_resource_add.png" onclick="fileSelect()">
+    <!--<div id="prompt3">-->
+    <input type="file" id="imgUpLoad" class="filepath" onclick="changepic(this)"
+           accept="image/jpg,image/jpeg,image/png,image/PNG">
+    <!--</div>-->
+    <img src="#" id="img3"/>
+</div>
+<!---->
+<div>
+    <input id="secondInput" type="file">
+    <!--<img id="secondImg" src="../../images/icon_resource_add.png">-->
+</div>
+</body>
+</html>

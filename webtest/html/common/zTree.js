@@ -2,7 +2,7 @@
 var setting = {
     view: {
         showIcon: false,//设置 zTree 是否显示节点的图标。默认值：true
-        showLine: true//设置 zTree 是否显示节点之间的连线。默认值：true
+        showLine: true,//设置 zTree 是否显示节点之间的连线。默认值：true
     },
     data: {
         simpleData: {
@@ -20,11 +20,13 @@ function onClick(e, treeId, treeNode) {
 }
 
 function showMenu() {
+    $(".ztree").css({"height":"190px","overflow-y":"scroll","overflow-x":"auto"});
     var cityObj = $('#txtTreeSelect');
     var cityOffset = cityObj.offset();
     $("#menuContent").css({
         left: cityOffset.left + "px",
-        top: cityOffset.top + cityObj.outerHeight() + "px"
+        top: cityOffset.top + cityObj.outerHeight() + "px",
+        height:200 + "px",
     }).slideDown("fast");
     $("body").bind("mousedown", onBodyDown);
     return false;
@@ -185,5 +187,5 @@ $(document).ready(function () {
         }
     ];
 
-    $.fn.zTree.init($("#treeDemo"), setting, resultValue);
+    $.fn.zTree.init($("#treeDemo"), setting, zNodes);
 });

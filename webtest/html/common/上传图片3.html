@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.css">
+    <script src="../../lib/jquery/jquery.min.js"></script>
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="上传图片3.js"></script>
+    <style>
+        #targetImg, #hotArea {
+            width: 100px;
+            height: 100px;
+        }
+
+        #hotArea {
+            position: absolute;
+            opacity: 0;
+        }
+    </style>
+
+</head>
+<body>
+<div id="selectedArea" style="margin: 100px">
+    <input id="hotArea" type="file" onchange="uploadImg(this)" accept="image/*">
+    <img id="targetImg" src="../../images/icon_resource_add.png">
+</div>
+</body>
+</html>
