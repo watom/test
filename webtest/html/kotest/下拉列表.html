@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript" src="../../lib/jquery/jquery.min.js"></script>
+    <script type='text/javascript' src='../../lib/knockout/knockout.cube.js'></script>
+    <script type='text/javascript' src='../../lib/knockout/knockout.mapping.js'></script>
+    <script type='text/javascript' src='../../lib/knockout/knockout-3.2.0.js'></script>
+    <script type='text/javascript' src='../../js/common.js'></script>
+    <script type='text/javascript' src='下拉列表.js'></script>
+    <style type="text/css">
+        select {
+            width: 200px;
+            height: 30px
+        }
+    </style>
+</head>
+<body>
+<span>第一种：下拉菜单</span><br>
+<label>所属目录：</label>
+<select data-bind="options:directoryBelongtos,optionsText:'catName',optionsValue:'id',
+        value:directoryBelongto,optionsCaption:'请选择所属目录'">
+</select>
+<p>您选择的是：<span data-bind="value:directoryBelongto"></span></p><br>
+<hr>
+<span>第二种：级联下拉菜单</span><br>
+<label>所属目录：</label>
+<select data-bind="options:directoryBelongtos,optionsText:'catName',optionsValue:'id',
+        value:directoryBelongto,optionsCaption:'请选择所属目录'">
+</select>
+
+<label for="dataType">数据类型：</label>
+<!-- ko with:directoryBelongto-->
+<select data-bind="visible:$data.directoryBelongto,options:resTypeList,optionsText:'typeName',optionsValue:'id',
+        value:$data.resTypeList,optionsCaption:'请选择数据类型'">
+</select>
+<!-- /ko -->
+<br>
+<hr>
+<span>第三种：级联下拉菜单（正常）</span><br>
+<label for="directoryBelongtos">所属目录：</label>
+<select id="directoryBelongtos" style="height: 32px;"
+        data-bind="options:directoryBelongtos,optionsText:'catName',value:directoryBelongto"></select>
+
+<label for="dataType">数据类型：</label>
+<select id="dataType" style="height: 32px;"
+        data-bind="options:dataTypes,optionsText:'typeName',optionsValue:'typeName',value:dataType"></select>
+<br>
+</body>
+</html>
