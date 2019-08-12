@@ -45,7 +45,7 @@ function registerImage() {
 
 function initDataBox(box) {
     var node1 = new twaver.Node({name: '电脑', location: {x: 200, y: 200}});
-    var alarm = new twaver.Alarm("alarm 1", node1.getId(), twaver.AlarmSeverity.CRITICAL );
+    var alarm = new twaver.Alarm("phuahasu", node1.getId(), twaver.AlarmSeverity.CRITICAL );
     box.getAlarmBox().add(alarm);
 
     node1.setClient('vector', true);
@@ -59,7 +59,7 @@ function initDataBox(box) {
  * @param box 容器
  */
 function setAlarmNodel(alarmNobel,box) {
-    box.getAlarmBox().add(new twaver.Alarm("alarmNobel 1", alarmNobel.getId(), twaver.AlarmSeverity.CRITICAL ));
+    box.getAlarmBox().add(new twaver.Alarm("", alarmNobel.getId(), twaver.AlarmSeverity.CRITICAL ));
     box.add(alarmNobel);
 }
 
@@ -69,5 +69,7 @@ $(document).ready(function () {
     var network = new twaver.vector.Network(box);
     initNetwork(network);
     registerImage();
-    initDataBox(box);
+    // initDataBox(box);
+    var node1 = new twaver.Node({name: '电脑', location: {x: 200, y: 200}});
+    setAlarmNodel(node1,box);
 });

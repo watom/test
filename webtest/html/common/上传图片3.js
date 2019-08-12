@@ -1,8 +1,3 @@
-
-// if (typeof FileReader == 'undefined') {
-//     document.getElementById("xmTanDiv").InnerHTML = "<h1>当前浏览器不支持FileReader接口</h1>";
-//     document.getElementById("xdaTanFileImg").setAttribute("disabled", "disabled");
-// }
 //选择图片，马上预览
 function uploadImg(obj) {
     console.log("读取前：obj="+obj);

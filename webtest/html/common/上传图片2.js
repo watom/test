@@ -5,9 +5,8 @@ $('#chooseImage').on('change',function(){
 
     // 检查是否是图片
     if( !fileFormat.match(/.png|.jpg|.jpeg/) ) {
-        error_prompt_alert('上传错误,文件格式必须为：png/jpg/jpeg');
+        error_prompt_alert('上传错误,文件格式必须为：png/jpg/jpeg/svg');
         return;
     }
-debugger;
     $('#cropedBigImg').attr('src',src);
 });
