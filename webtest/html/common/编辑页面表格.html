@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>监控平台</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script type="application/javascript" src="../../lib/jquery/jquery.min.js"></script>
+    <script type='text/javascript' src="编辑页面表格.js"></script>
+</head>
+<body>
+<div>
+    <h3>第一种形式：</h3>
+    <p>
+        <input type="button" value="增加行" onclick="addrow()">
+        <input type="button" value="删除行" onclick="delrow()">
+        <input type="button" value="增加列" onclick="addcol()">
+        <input type="button" value="删除列" onclick="delcol()">
+
+    </p>
+    <table frame="border" rules="all" id="mytable">
+        <caption>测试表</caption>
+        <tr>
+            <td>单元格1</td>
+            <td>单元格2</td>
+        </tr>
+    </table>
+</div>
+
+<div>
+    <h3>第二种形式：</h3>
+    <p>
+        <input type="button" value="增加行" onclick="addrow01()">
+        <input type="button" value="删除行" onclick="delrow01()">
+    </p>
+    <div id="tableRelationId" class="">
+        <ul class="sys-list-wrap leftxxx" id="tableUlId">
+            <h3>
+                <span><input class="layui-table-input" placeholder="请输入" value="111"/></span>
+                <span><input class="layui-table-input" placeholder="请输入"/></span>
+                <span><select class="layui-table-select"><option>请选择</option></select></span>
+                <span><div class="btns"><button class="button-add">+</button><button
+                        class="button-reduce">-</button></div></span>
+            </h3>
+        </ul>
+    </div>
+</div>
+
+<div>
+    <h3>第三种形式：</h3>
+    <p>
+        <input type="button" value="增加行" onclick="addrow02()">
+        <input type="button" value="删除行" onclick="delrow02()">
+    </p>
+    <div id="fieldRelationId" class="tablegrid">
+    </div>
+</div>
+
+<div>
+    <h3>第4种形式：</h3>
+    <div id="fieldRelationIds" class="tablegrid" style="height:92%;">
+        <ul class="sys-list-wrap rightxxx">
+            <h3>
+            <span>
+                <input class="layui-table-input" placeholder="请输入" value="111"/>
+            </span>
+
+                <span>
+                <select class="layui-table-select">
+                    <option>请选择</option>
+                </select>
+            </span>
+                <span>
+                <input class="layui-table-input" placeholder="请输入"/>
+            </span>
+                <span>
+                <input class="layui-table-input" placeholder="请输入"/>
+            </span>
+                <span>
+                    <input class="layui-table-input" placeholder="请输入"/>
+                </span>
+                <span>
+                    <div class="btns">
+                        <button class="button-add" onclick="addRightRow(this)">+</button>
+                        <button class="button-reduce" onclick="removeRow(this)">-</button>
+                    </div>
+                </span>
+            </h3>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

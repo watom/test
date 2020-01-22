@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <script src="../../js/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../lib/My97DatePicker/WdatePicker.js"></script>
     <style type="text/css">
         .title {
             padding: 10px;
@@ -119,12 +120,14 @@
                                 data-bind="options:updateFrequencys,optionsText:'dictname',optionsValue:'dictname',value:updateFrequency"></select>
                     </td>
 
-                    <td><label for="availableTime">有效日期：</label><input id="availableTime"
-                                                                       autocomplete="off"
-                                                                       data-bind="value:availableTime"
-                                                                       onclick="WdatePicker({isShowClear:false,dateFmt:'yyyy-MM-dd',skin:'whyGreen'});"
-                                                                       class="timelist" type="text"
-                                                                       placeholder="请输入有效日期"></td>
+                    <td><label for="availableTime">有效日期：</label>
+                        <input id="availableTime"
+                               autocomplete="off"
+                               data-bind="value:availableTime"
+                               onclick="WdatePicker({isShowClear:false,dateFmt:'yyyy-MM-dd',skin:'whyGreen'});"
+                               class="timelist" type="text"
+                               placeholder="请输入有效日期">
+                    </td>
                 </tr>
                 <tr>
 

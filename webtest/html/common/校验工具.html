@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript" src="../../lib/jquery/jquery.min.js"></script>
+    <script type="application/javascript" src="校验工具.js"></script>
+    <style>
+        /*去除h标签本身自带间距*/
+        h4 {
+            margin: 0px;
+            padding: 0px;
+        }
+        /*设置input的宽度和高度*/
+        input {
+            width: 400px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h4>01.校验URL是否有效？</h4>
+    <input type="text" id="inputValue01"/>
+    <button type="button" onclick="URL是否有效()">校验</button>
+</div>
+<div>
+    <h4>02.校验字符串是否有包含中文字符？</h4>
+    <input type="text" id="inputValue02"/>
+    <button type="button" onclick="是否有包含中文()">校验</button>
+</div>
+<div>
+    <h4>03.返回数字的位置序号？</h4>
+    <input type="text" id="inputValue03"/>
+    <button type="button" onclick="返回数字的位置序号()">校验</button>
+</div>
+
+<div>
+    <h4>04.拼接两个字符串</h4>
+    <button type="button" onclick="拼接两个字符串()">拼接</button>
+</div>
+</body>
+</html>

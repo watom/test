@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.css">
+    <script src="../../lib/jquery/jquery.min.js"></script>
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='单选框.js'></script>
+</head>
+<body>
+<button data-toggle="modal" data-target="#selectWhich">发布本地资源</button>
+<!-- 发布本地资源开始-->
+<div class="modal fade" id="selectWhich" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    请选择发布资源类型：
+                </h4>
+            </div>
+            <div class="modal-body">
+                <label><input type="radio" name="zrcType" value="0">产品资源</label>
+                <label><input type="radio" name="zrcType" value="1">文件资源</label>
+                <label><input type="radio" name="zrcType" value="2">接口资源</label>
+                <label><input type="radio" name="zrcType" value="3">模型资源</label>
+                <label><input type="radio" name="zrcType" value="4" checked="true">报表资源</label>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                </button>
+                <button type="button" class="btn btn-primary"
+                        onclick="whichSelect()">确定
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<!--发布本地资源结束-->
+</body>
+</html>

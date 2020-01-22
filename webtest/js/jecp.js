@@ -38,10 +38,7 @@ CUBE = function()
 	 *
 	 * @default id + port
 	 */
-	self.gatewayURL_sys = "http://localhost:8088";// sys-server服务地址
-	self.gatewayURL_process = "http://localhost:8086";// jecp-data-process服务地址
-	self.gatewayURL_jecp = "http://localhost:8088";// jecp-web-server服务地址
-	self.gatewayURL_img = "http://localhost:8080"; // 图片服务器地址
+	self.gatewayURL_test = "http://localhost:8082";
 	/**
 	 * 获取设置一个 Boolean 值，表示当前是否开发模式。如果为 true 表示当前是开发模式；反之当前为运行时模式。
 	 *
@@ -104,7 +101,7 @@ CUBE = function()
 	/**
 	 * 获取当前工程的根路径。
 	 */
-	self.rootPath = "/jecp/home/";
+	self.rootPath = "/webtest/";
 
 	/**
 	 * require资源配置
@@ -131,8 +128,8 @@ CUBE = function()
 		self._includeFrameworkJs("lib/knockout/knockout.cube.js");
 		self._includeFrameworkJs("lib/knockout/knockout.mapping.js");
 		// 初始化css
-		self._includeFrameworkCSS("css/font.css");
-		self._includeFrameworkCSS("css/styleNew.css");
+		// self._includeFrameworkCSS("css/font.css");
+		// self._includeFrameworkCSS("css/styleNew.css");
 		self.logSwitch();
 		//配置require资源加载
 		require = {
@@ -479,13 +476,13 @@ CUBE = function()
 	 * @param [isHaveToken] 一个Boolean值。表示response结果是否含有token 除登录外其他接口均不传值或传false。
 	 */
 	self.interactToServer = function(p_path, p_method, p_data, p_async,  p_isCubeObj, successCall,failCall,isHaveToken) {
-		var tokenOper = isHaveToken != undefined && isHaveToken;
-		var localtokenId = sessionStorage.getItem("Authorization");
-		if(!isHaveToken || isHaveToken == null){
-			if(localtokenId == null || localtokenId == ''){
-				location.href = '/jecp/home/login.html'
-			}
-		}
+		// var tokenOper = isHaveToken != undefined && isHaveToken;
+		// var localtokenId = sessionStorage.getItem("Authorization");
+		// if(!isHaveToken || isHaveToken == null){
+		// 	if(localtokenId == null || localtokenId == ''){
+		// 		location.href = '/jecp/home/login.html'
+		// 	}
+		// }
 		//console.log("localtokenId:"+localtokenId);
 		var url = p_path != null ? p_path : "";
 
@@ -514,7 +511,7 @@ CUBE = function()
 			async: async,
 			data: ko.toJSON(p_data),
 			beforeSend: function (XMLHttpRequest) {
-				XMLHttpRequest.setRequestHeader("Authorization", localtokenId);
+				// XMLHttpRequest.setRequestHeader("Authorization", localtokenId);
 			},
 			success: function(dataResult,textStatus, request) {
 				try {

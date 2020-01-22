@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript" src="../../lib/jquery/jquery.min.js"></script>
+    <script type='text/javascript' src="删除table一行.js"></script>
+</head>
+<body>
+<table id="tab">
+    <tr id="x">
+        <td>0</td>
+        <td><input type="button" onclick="removeRow(this)" value="删除"></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><input type="button" onclick="removeRow(this)" value="删除"></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td><input type="button" onclick="removeRow(this)" value="删除"></td>
+    </tr>
+
+    <tr>
+        <td><input class="layui-table-input" placeholder="请输入" value="111"/></td>
+        <td><input class="layui-table-input" placeholder="请输入"/></td>
+
+        <td><select class="layui-table-select">
+            <option>请选择</option>
+        </select>
+        </td>
+        <td>
+            <div class="btns">
+                <button class="button-reduce">-</button>
+            </div>
+        </td>
+    </tr>
+</table>
+<br>
+<input type="button" onclick="addrow()" value="插入行">
+
+</body>
+</html>

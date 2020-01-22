@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="5fb5807b-0582-4193-8a9a-98a31f21ca1e" name="tomcat" url="http://localhost:8080/online">
-        <fileTransfer port="0" mountedRoot="D:\win10_program\develop\Apache Software Foundation\Tomcat 7.0\webapps\online" accessType="MOUNT" />
+      <webServer id="5fb5807b-0582-4193-8a9a-98a31f21ca1e" name="tomcat" url="http://localhost:8080/20190730">
+        <fileTransfer port="0" mountedRoot="D:\win10_program\develop\Apache Software Foundation\Tomcat 7.0\webapps\20190730" accessType="MOUNT" />
       </webServer>
     </option>
   </component>

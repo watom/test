@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <style type="text/css">
+        .search_input input[type='text']{
+            display: inline-block;
+            width: 250px;
+            border-radius: 15px;
+            height: 30px;
+            text-indent: 30px;
+            border: 1px solid ;
+        }
+        .search_input input[type='text']:focus{
+            border: 0px;
+            border-color: white;
+        }
+        .search_input {
+            margin-top: 10px;
+        }
+        .search_input i{
+            position: relative;
+            left: 30px;// 这里更改图标的位置
+        // top: 1px;
+        // color: #B2B2B2;//这里可以更改图标的颜色
+        }
+
+    </style>
+</head>
+<body>
+<div class="search_input">
+    <i class="fa fa-search" id="i-advanced-search-i"></i>
+    <input type="text" id="i-advanced-search" placeholder="输入关键词检索数据库">
+</div>
+</body>
+</html>

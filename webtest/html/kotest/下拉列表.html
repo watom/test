@@ -17,35 +17,44 @@
     </style>
 </head>
 <body>
-<span>第一种：下拉菜单</span><br>
-<label>所属目录：</label>
-<select data-bind="options:directoryBelongtos,optionsText:'catName',optionsValue:'id',
-        value:directoryBelongto,optionsCaption:'请选择所属目录'">
-</select>
-<p>您选择的是：<span data-bind="value:directoryBelongto"></span></p><br>
-<hr>
-<span>第二种：级联下拉菜单</span><br>
-<label>所属目录：</label>
-<select data-bind="options:directoryBelongtos,optionsText:'catName',optionsValue:'id',
-        value:directoryBelongto,optionsCaption:'请选择所属目录'">
-</select>
+<!--<span>第一种：下拉菜单</span><br>-->
+<!--<label>所属目录：</label>-->
+<!--<select data-bind="options:directoryBelongtos,optionsText:'catName',optionsValue:'id',-->
+<!--        value:directoryBelongto,optionsCaption:'请选择所属目录'">-->
+<!--</select>-->
+<!--<p>您选择的是：<span data-bind="value:directoryBelongto"></span></p><br>-->
+<!--<hr>-->
+<!--<span>第二种：级联下拉菜单</span><br>-->
+<!--<label>所属目录：</label>-->
+<!--<select data-bind="options:directoryBelongtos,optionsText:'catName',optionsValue:'id',-->
+<!--        value:directoryBelongto,optionsCaption:'请选择所属目录'">-->
+<!--</select>-->
 
-<label for="dataType">数据类型：</label>
-<!-- ko with:directoryBelongto-->
-<select data-bind="visible:$data.directoryBelongto,options:resTypeList,optionsText:'typeName',optionsValue:'id',
-        value:$data.resTypeList,optionsCaption:'请选择数据类型'">
-</select>
-<!-- /ko -->
-<br>
-<hr>
-<span>第三种：级联下拉菜单（正常）</span><br>
-<label for="directoryBelongtos">所属目录：</label>
-<select id="directoryBelongtos" style="height: 32px;"
-        data-bind="options:directoryBelongtos,optionsText:'catName',value:directoryBelongto"></select>
+<!--<label for="dataType">数据类型：</label>-->
+<!--&lt;!&ndash; ko with:directoryBelongto&ndash;&gt;-->
+<!--<select data-bind="visible:$data.directoryBelongto,options:resTypeList,optionsText:'typeName',optionsValue:'id',-->
+<!--        value:$data.resTypeList,optionsCaption:'请选择数据类型'">-->
+<!--</select>-->
+<!--&lt;!&ndash; /ko &ndash;&gt;-->
+<!--<br>-->
+<!--<hr>-->
+<!--<span>第三种：级联下拉菜单（正常）</span><br>-->
+<!--<label for="directoryBelongtos">所属目录：</label>-->
+<!--<select id="directoryBelongtos" style="height: 32px;"-->
+<!--        data-bind="options:directoryBelongtos,optionsText:'catName',value:directoryBelongto"></select>-->
 
-<label for="dataType">数据类型：</label>
-<select id="dataType" style="height: 32px;"
-        data-bind="options:dataTypes,optionsText:'typeName',optionsValue:'typeName',value:dataType"></select>
-<br>
+<!--<label for="dataType">数据类型：</label>-->
+<!--<select id="dataType" style="height: 32px;"-->
+<!--        data-bind="options:dataTypes,optionsText:'typeName',optionsValue:'typeName',value:dataType"></select>-->
+<!--<br>-->
+
+
+<!--最简单的下拉列表-->
+<P>选中的值：<span data-bind="text:selectedValue"></span></P>
+<p>所属地区： <select data-bind="options: availableCountries,optionsCaption:'请选择地区',value:selectedValue"></select></p>
+
+<!--最简单的下拉列表-->
+<P>选中的值：<span data-bind="text:selected"></span></P>
+<p>所属地区： <select data-bind="options: resultList,optionsValue :'domainId',optionsText :'domainName',optionsCaption:'请选择地区',value:selected"></select></p>
 </body>
 </html>

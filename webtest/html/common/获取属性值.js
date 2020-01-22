@@ -5,6 +5,9 @@ $(function () {
     $("#btn2").click(function () {
         getAttr02();
     });
+    $("#btn3").click(function () {
+        getAttr03();
+    });
 });
 
 function getAttr01() {
@@ -32,4 +35,9 @@ function getAttr02() {
     console.log("通过dataset获得data-plant-height====" + tree.dataset.plantHeight);
 
     //注意在这里连字符的访问时，属性要写成驼峰形式
+}
+
+function fun(obj) {
+    $(obj).find("input").first().val("12#$567890");
+
 }

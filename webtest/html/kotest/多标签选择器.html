@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript" src="../../lib/jquery/jquery.min.js"></script>
+    <script type='text/javascript' src='../../lib/knockout/knockout.cube.js'></script>
+    <script type='text/javascript' src='../../lib/knockout/knockout.mapping.js'></script>
+    <script type='text/javascript' src='../../lib/knockout/knockout-3.2.0.js'></script>
+</head>
+<body>
+
+<div class="form-item-input">
+    <input type="text" data-bind="value:selectedValue">
+</div>
+<div data-bind="foreach: mLabelList">
+    <label>
+        <input type="radio" name="department"
+               data-bind="value:$data.firstName+'|'+$data.index">
+        <span class="lbl" data-bind="text:$data.firstName"></span>
+    </label>
+</div>
+<div>
+    <button type="button" data-bind="click:showChecked">show checked</button>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        ko.applyBindings(labelViewModel);
+    });
+
+
+    var labelViewModel = {
+        selectedValue: ko.observable(),
+        selectedID: ko.observable(),
+        showChecked: function () {
+            getCheckVal1();
+            // alert(getCheckVal1());
+            // alert(labelViewModel.selectedValue());
+            alert(labelViewModel.selectedID());
+        },
+        mLabelList: ko.observableArray(
+            [{firstName: 'Bert', index: '10'},
+             {firstName: 'Charles', index: '20'},
+             {firstName: 'Denise', index: '30'}]
+        )
+    }
+
+
+    function getCheckVal() {
+        var urlPathArray = new Array();
+        $.each($("input[name='department']"), function () {
+            if (this.checked) {
+                var urlPath = $(this).val();
+                urlPathArray.push(urlPath);
+            }
+        });
+        return urlPathArray;
+    }
+
+    function getCheckVal1() {
+        var data = null;
+        $.each($("input[name='department']"), function () {
+            if (this.checked) {
+                data = $(this).val();
+            }
+        });
+        var arr= data.split("|");
+        labelViewModel.selectedValue(arr[0]);
+        labelViewModel.selectedID(arr[1]);
+    }
+</script>
+
+</body>
+</html>

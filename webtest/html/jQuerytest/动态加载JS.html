@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>利用jQuery动态加载js</title>
+    <script type="application/javascript" src="../../lib/jquery/jquery.min.js"></script>
+</head>
+<body>
+<div id="content"></div><br/>
+
+<button id="load">Load JavaScript</button>
+<button id="sayHello">Say Hello</button>
+
+<script type="text/javascript">
+    // $("#load").click(function () {
+        $.getScript('被动态加载JS.js');
+    // });
+
+    $("#sayHello").click(function () {
+        sayHello();
+    });
+</script>
+</body>
+</html>

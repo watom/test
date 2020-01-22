@@ -44,10 +44,12 @@ function onBodyDown(event) {
 }
 
 $(document).ready(function () {
+
     var zNodes = [
+        {id: 111, pId: 11, name: "衡水"},
         {id: 1, pId: 0, name: "河北", open: true, url: "jyy"},
         {id: 11, pId: 1, name: "石家庄"},
-        {id: 111, pId: 11, name: "衡水"},
+
         {id: 112, pId: 11, name: "邢台"},
         {id: 113, pId: 11, name: "承德"},
         {id: 114, pId: 11, name: "保定"},
@@ -75,117 +77,103 @@ $(document).ready(function () {
         {id: 234, pId: 23, name: "云南白药"},
         {id: 3, pId: 0, name: "深圳", isParent: true}
     ];
-    
-    var resultValue=[
-        {
-            "id": "-1",
-            "orgId": "GSDL",
-            "name": "默认最高机构",
-            "viewCode": "GSDL",
-            "fullName": "默认最高机构",
-            "officeType": "1",
-            "leader": "屈总",
-            "phone": "2",
-            "address": "西安雁塔",
-            "zipCode": "710000",
-            "email": "123123132@qq.com",
-            "status": "1",
-            "pId": "-1",
-            "parentName": null,
-            "remark": null,
-            "reserved1": null,
-            "reserved2": null,
-            "reserved3": null,
-            "orgOrder": 3,
-            "mxVirtualId": null,
-            "dictName": null,
-            "childOrgs": [],
-            "userInfos": [],
-            "checked": false,
-            "open": true
-        },
-        {
-            "id": "8a81859d6b21b47c016b25a1f520000c",
-            "orgId": null,
-            "name": "兰州电力",
-            "viewCode": "1001",
-            "fullName": "兰州电力",
-            "officeType": "2",
-            "leader": "lz",
-            "phone": "12223333333",
-            "address": "兰州",
-            "zipCode": null,
-            "email": null,
-            "status": "1",
-            "pId": "8a81858a6ab3ce9a016ab3d0e04b0000",
-            "parentName": "甘肃电力",
-            "remark": null,
-            "reserved1": null,
-            "reserved2": null,
-            "reserved3": null,
-            "orgOrder": 2,
-            "mxVirtualId": null,
-            "dictName": null,
-            "childOrgs": [],
-            "userInfos": [],
-            "checked": false,
-            "open": true
-        },
-        {
-            "id": "8a81858a6ab3ce9a016ab3d0e04b0000",
-            "orgId": null,
-            "name": "甘肃电力",
-            "viewCode": "001",
-            "fullName": "大佬不要删",
-            "officeType": "1",
-            "leader": "gs",
-            "phone": "18634834",
-            "address": "34",
-            "zipCode": "1",
-            "email": "22323",
-            "status": "1",
-            "pId": "0",
-            "parentName": "1",
-            "remark": null,
-            "reserved1": null,
-            "reserved2": null,
-            "reserved3": null,
-            "orgOrder": 1,
-            "mxVirtualId": null,
-            "dictName": null,
-            "childOrgs": [],
-            "userInfos": [],
-            "checked": false,
-            "open": true
-        },
-        {
-            "id": "5c7ac09a6b2ba339016b2bcf5aea0002",
-            "orgId": null,
-            "name": "电力2",
-            "viewCode": "ffff",
-            "fullName": "电力2",
-            "officeType": "1",
-            "leader": "eeeeeeeeeeee",
-            "phone": "1111",
-            "address": "111",
-            "zipCode": null,
-            "email": "1111",
-            "status": "1",
-            "pId": "8a81859d6b21b47c016b25a1f520000c",
-            "parentName": "兰州电力",
-            "remark": null,
-            "reserved1": null,
-            "reserved2": null,
-            "reserved3": null,
-            "orgOrder": 22,
-            "mxVirtualId": null,
-            "dictName": null,
-            "childOrgs": [],
-            "userInfos": [],
-            "checked": false,
-            "open": true
-        }
-    ];
 
-    $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+    var aaa=[
+        {
+            "pId": "0",
+            "name": "资产域1",
+            "id": "4",
+            isParent: "true"
+        },
+        {
+            "pId": "1",
+            "name": "DWD_AST_LIVEWORKRECORD",
+            "id": "3", isParent: "true"
+        },
+        {
+            "pId": "1",
+            "name": "jiiji",
+            "id": "4",
+        },
+        {
+            "pId": "0",
+            "name": "资产域2",
+            "id": "1", isParent: "true",open: "true",
+        },
+        {
+            "pId": "0",
+            "name": "资产域3",
+            "id": "2", isParent: "true"
+        },
+        {
+            "pId": "0",
+            "name": "资产域4",
+            "id": "3", isParent: "true"
+
+        },
+        {
+            "pId": "2",
+            "name": "DWD_AST_PRESSURECHECKLIST",
+            "id": "4"
+        },
+        {
+            "pId": "1",
+            "name": "DWD_AST_LVMETERBOXINFO",
+            "id": "5"
+        },
+        {
+            "pId": "2",
+            "name": "DWD_AST_CARINSUFEESCHE",
+            "id": "4"}];
+
+
+    var bbb=[
+        {
+        "isParent": "true",
+        "pId": "0",
+        "name": "资产域",
+        "id": "1"
+       },
+        {
+            "pId": "1",
+            "name": "DWD_AST_PRESSURECHECKLIST",
+            "id": "2"
+        },
+        {
+            "pId": "1",
+            "name": "DWD_AST_LVMETERBOXINFO",
+            "id": "3"
+        },
+        {
+            "pId": "1",
+            "name": "DWD_AST_CARINSUFEESCHE",
+            "id": "4"
+        },
+        {
+            "pId": "1",
+            "name": "DWD_AST_FUSEREPLACERECORD",
+            "id": "5"
+        },
+        {
+            "pId": "1",
+            "name": "DWD_AST_PROTECTIVEACTIONRCD",
+            "id": "6"
+        },
+        {
+            "isParent": "true",
+            "pId": "0",
+            "name": "安全域",
+            "id": "2"
+        },
+        {
+            "pId": "2",
+            "name": "DWD_AST_DISTRIBUTIONTASK",
+            "id": "7"
+        },
+        {
+            "pId": "2",
+            "name": "DWD_AST_INSTALLATIONRECORD",
+            "id": "8"
+        }];
+    $.fn.zTree.init($("#zTreeMain"), setting, bbb);
 });
